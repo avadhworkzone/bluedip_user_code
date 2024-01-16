@@ -1,0 +1,316 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.bluedip_user"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/techcureindia/Documents/Github/bluedip_user/android/app/src/main/AndroidManifest.xml:3:5-66
+15-->/Users/techcureindia/Documents/Github/bluedip_user/android/app/src/main/AndroidManifest.xml:3:22-64
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/Users/techcureindia/Documents/Github/bluedip_user/android/app/src/main/AndroidManifest.xml:4:5-5:66
+16-->/Users/techcureindia/Documents/Github/bluedip_user/android/app/src/main/AndroidManifest.xml:5:9-63
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->/Users/techcureindia/Documents/Github/bluedip_user/android/app/src/main/AndroidManifest.xml:6:5-7:68
+17-->/Users/techcureindia/Documents/Github/bluedip_user/android/app/src/main/AndroidManifest.xml:7:9-65
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->/Users/techcureindia/Documents/Github/bluedip_user/android/app/src/main/AndroidManifest.xml:8:5-81
+18-->/Users/techcureindia/Documents/Github/bluedip_user/android/app/src/main/AndroidManifest.xml:8:22-78
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->/Users/techcureindia/Documents/Github/bluedip_user/android/app/src/main/AndroidManifest.xml:9:5-80
+19-->/Users/techcureindia/Documents/Github/bluedip_user/android/app/src/main/AndroidManifest.xml:9:22-77
+20    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+20-->/Users/techcureindia/Documents/Github/bluedip_user/android/app/src/main/AndroidManifest.xml:10:5-76
+20-->/Users/techcureindia/Documents/Github/bluedip_user/android/app/src/main/AndroidManifest.xml:10:22-73
+21    <uses-permission android:name="android.perwindowSoftInputModemission.READ_MEDIA_VIDEO" />
+21-->/Users/techcureindia/Documents/Github/bluedip_user/android/app/src/main/AndroidManifest.xml:11:5-94
+21-->/Users/techcureindia/Documents/Github/bluedip_user/android/app/src/main/AndroidManifest.xml:11:22-91
+22    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+22-->/Users/techcureindia/Documents/Github/bluedip_user/android/app/src/main/AndroidManifest.xml:12:5-77
+22-->/Users/techcureindia/Documents/Github/bluedip_user/android/app/src/main/AndroidManifest.xml:12:22-74
+23    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+23-->/Users/techcureindia/Documents/Github/bluedip_user/android/app/src/main/AndroidManifest.xml:13:5-84
+23-->/Users/techcureindia/Documents/Github/bluedip_user/android/app/src/main/AndroidManifest.xml:13:22-82
+24    <uses-permission android:name="android.permission.CAMERA" />
+24-->[:camera_android] /Users/techcureindia/Documents/Github/bluedip_user/build/camera_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-65
+24-->[:camera_android] /Users/techcureindia/Documents/Github/bluedip_user/build/camera_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-62
+25    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+25-->[:camera_android] /Users/techcureindia/Documents/Github/bluedip_user/build/camera_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-71
+25-->[:camera_android] /Users/techcureindia/Documents/Github/bluedip_user/build/camera_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-68
+26
+27    <queries>
+27-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:10:5-39:15
+28        <intent>
+28-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:11:9-17:18
+29            <action android:name="android.intent.action.VIEW" />
+29-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:12:13-65
+29-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:12:21-62
+30
+31            <data
+31-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:14:13-16:38
+32                android:mimeType="*/*"
+32-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:15:17-39
+33                android:scheme="*" />
+33-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:16:17-35
+34        </intent>
+35        <intent>
+35-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:18:9-27:18
+36            <action android:name="android.intent.action.VIEW" />
+36-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:12:13-65
+36-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:12:21-62
+37
+38            <category android:name="android.intent.category.BROWSABLE" />
+38-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:21:13-74
+38-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:21:23-71
+39
+40            <data
+40-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:14:13-16:38
+41                android:host="pay"
+42                android:mimeType="*/*"
+42-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:15:17-39
+43                android:scheme="upi" />
+43-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:16:17-35
+44        </intent>
+45        <intent>
+45-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:28:9-30:18
+46            <action android:name="android.intent.action.MAIN" />
+46-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:29:13-65
+46-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:29:21-62
+47        </intent>
+48        <intent>
+48-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:31:9-35:18
+49            <action android:name="android.intent.action.SEND" />
+49-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:32:13-65
+49-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:32:21-62
+50
+51            <data android:mimeType="*/*" />
+51-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:14:13-16:38
+51-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:15:17-39
+52        </intent>
+53        <intent>
+53-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:36:9-38:18
+54            <action android:name="rzp.device_token.share" />
+54-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:37:13-61
+54-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:37:21-58
+55        </intent>
+56        <!-- Needs to be explicitly declared on Android R+ -->
+57        <package android:name="com.google.android.apps.maps" />
+57-->[com.google.android.gms:play-services-maps:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+57-->[com.google.android.gms:play-services-maps:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+58    </queries> <!-- Include required permissions for Google Maps API to run. -->
+59    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+59-->[com.google.android.gms:play-services-maps:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:23:5-79
+59-->[com.google.android.gms:play-services-maps:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:23:22-76
+60
+61    <uses-feature
+61-->[com.google.android.gms:play-services-maps:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+62        android:glEsVersion="0x00020000"
+62-->[com.google.android.gms:play-services-maps:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+63        android:required="true" />
+63-->[com.google.android.gms:play-services-maps:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+64
+65    <permission
+65-->[androidx.core:core:1.9.0] /Users/techcureindia/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+66        android:name="com.example.bluedip_user.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+66-->[androidx.core:core:1.9.0] /Users/techcureindia/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+67        android:protectionLevel="signature" />
+67-->[androidx.core:core:1.9.0] /Users/techcureindia/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+68
+69    <uses-permission android:name="com.example.bluedip_user.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" /> -->
+69-->[androidx.core:core:1.9.0] /Users/techcureindia/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+69-->[androidx.core:core:1.9.0] /Users/techcureindia/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+70    <application
+71        android:name="android.app.Application"
+72        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+72-->[androidx.core:core:1.9.0] /Users/techcureindia/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+73        android:debuggable="true"
+74        android:icon="@mipmap/ic_launcher"
+75        android:label="bluedip_user" >
+76        <meta-data
+77            android:name="com.google.android.geo.API_KEY"
+78            android:value="AIzaSyA95kR4zoYPpDInKgemfdZk6g15KiObjgg" />
+79
+80        <activity
+81            android:name="com.example.bluedip_user.MainActivity"
+82            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+83            android:exported="true"
+84            android:hardwareAccelerated="true"
+85            android:launchMode="singleTop"
+86            android:theme="@style/LaunchTheme"
+87            android:windowSoftInputMode="adjustResize" >
+88
+89            <!--
+90                 Specifies an Android theme to apply to this Activity as soon as
+91                 the Android process has started. This theme is visible to the user
+92                 while the Flutter UI initializes. After that, this theme continues
+93                 to determine the Window background behind the Flutter UI.
+94            -->
+95            <meta-data
+96                android:name="io.flutter.embedding.android.NormalTheme"
+97                android:resource="@style/NormalTheme" />
+98
+99            <intent-filter>
+100                <action android:name="android.intent.action.MAIN" />
+100-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:29:13-65
+100-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:29:21-62
+101
+102                <category android:name="android.intent.category.LAUNCHER" />
+103            </intent-filter>
+104        </activity>
+105        <!--
+106             Don't delete the meta-data below.
+107             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+108        -->
+109        <meta-data
+110            android:name="flutterEmbedding"
+111            android:value="2" />
+112
+113        <service
+113-->[:geolocator_android] /Users/techcureindia/Documents/Github/bluedip_user/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-16:56
+114            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+114-->[:geolocator_android] /Users/techcureindia/Documents/Github/bluedip_user/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-77
+115            android:enabled="true"
+115-->[:geolocator_android] /Users/techcureindia/Documents/Github/bluedip_user/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-35
+116            android:exported="false"
+116-->[:geolocator_android] /Users/techcureindia/Documents/Github/bluedip_user/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-37
+117            android:foregroundServiceType="location" />
+117-->[:geolocator_android] /Users/techcureindia/Documents/Github/bluedip_user/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-53
+118
+119        <provider
+119-->[:image_picker_android] /Users/techcureindia/Documents/Github/bluedip_user/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+120            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+120-->[:image_picker_android] /Users/techcureindia/Documents/Github/bluedip_user/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
+121            android:authorities="com.example.bluedip_user.flutter.image_provider"
+121-->[:image_picker_android] /Users/techcureindia/Documents/Github/bluedip_user/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+122            android:exported="false"
+122-->[:image_picker_android] /Users/techcureindia/Documents/Github/bluedip_user/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+123            android:grantUriPermissions="true" >
+123-->[:image_picker_android] /Users/techcureindia/Documents/Github/bluedip_user/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+124            <meta-data
+124-->[:image_picker_android] /Users/techcureindia/Documents/Github/bluedip_user/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+125                android:name="android.support.FILE_PROVIDER_PATHS"
+125-->[:image_picker_android] /Users/techcureindia/Documents/Github/bluedip_user/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+126                android:resource="@xml/flutter_image_picker_file_paths" />
+126-->[:image_picker_android] /Users/techcureindia/Documents/Github/bluedip_user/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+127        </provider>
+128
+129        <service
+129-->[:location] /Users/techcureindia/Documents/Github/bluedip_user/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-17:56
+130            android:name="com.lyokone.location.FlutterLocationService"
+130-->[:location] /Users/techcureindia/Documents/Github/bluedip_user/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-71
+131            android:enabled="true"
+131-->[:location] /Users/techcureindia/Documents/Github/bluedip_user/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-35
+132            android:exported="false"
+132-->[:location] /Users/techcureindia/Documents/Github/bluedip_user/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+133            android:foregroundServiceType="location" />
+133-->[:location] /Users/techcureindia/Documents/Github/bluedip_user/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-53
+134
+135        <receiver
+135-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:42:9-49:20
+136            android:name="com.razorpay.RzpTokenReceiver"
+136-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:43:13-57
+137            android:exported="true" >
+137-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:44:13-36
+138            <intent-filter>
+138-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:46:13-48:29
+139                <action android:name="rzp.device_token.share" />
+139-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:37:13-61
+139-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:37:21-58
+140            </intent-filter>
+141        </receiver>
+142
+143        <activity
+143-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:51:9-59:20
+144            android:name="com.razorpay.CheckoutActivity"
+144-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:52:13-57
+145            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+145-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:53:13-83
+146            android:exported="false"
+146-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:54:13-37
+147            android:theme="@style/CheckoutTheme" >
+147-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:55:13-49
+148            <intent-filter>
+148-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:56:13-58:29
+149                <action android:name="android.intent.action.MAIN" />
+149-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:29:13-65
+149-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:29:21-62
+150            </intent-filter>
+151        </activity>
+152
+153        <meta-data
+153-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:61:9-63:58
+154            android:name="com.razorpay.plugin.googlepay_all"
+154-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:62:13-61
+155            android:value="com.razorpay.RzpGpayMerged" />
+155-->[com.razorpay:checkout:1.6.34] /Users/techcureindia/.gradle/caches/transforms-3/defcce7712a2056191c272defd2b4a68/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:63:13-55
+156
+157        <activity
+157-->[com.google.android.gms:play-services-auth:20.4.0] /Users/techcureindia/.gradle/caches/transforms-3/3535be8f62b8f6744ac9d5afbd552ab5/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:23:9-27:75
+158            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+158-->[com.google.android.gms:play-services-auth:20.4.0] /Users/techcureindia/.gradle/caches/transforms-3/3535be8f62b8f6744ac9d5afbd552ab5/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:24:13-93
+159            android:excludeFromRecents="true"
+159-->[com.google.android.gms:play-services-auth:20.4.0] /Users/techcureindia/.gradle/caches/transforms-3/3535be8f62b8f6744ac9d5afbd552ab5/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:25:13-46
+160            android:exported="false"
+160-->[com.google.android.gms:play-services-auth:20.4.0] /Users/techcureindia/.gradle/caches/transforms-3/3535be8f62b8f6744ac9d5afbd552ab5/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:26:13-37
+161            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+161-->[com.google.android.gms:play-services-auth:20.4.0] /Users/techcureindia/.gradle/caches/transforms-3/3535be8f62b8f6744ac9d5afbd552ab5/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:27:13-72
+162        <!--
+163            Service handling Google Sign-In user revocation. For apps that do not integrate with
+164            Google Sign-In, this service will never be started.
+165        -->
+166        <service
+166-->[com.google.android.gms:play-services-auth:20.4.0] /Users/techcureindia/.gradle/caches/transforms-3/3535be8f62b8f6744ac9d5afbd552ab5/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:33:9-37:51
+167            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+167-->[com.google.android.gms:play-services-auth:20.4.0] /Users/techcureindia/.gradle/caches/transforms-3/3535be8f62b8f6744ac9d5afbd552ab5/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:34:13-89
+168            android:exported="true"
+168-->[com.google.android.gms:play-services-auth:20.4.0] /Users/techcureindia/.gradle/caches/transforms-3/3535be8f62b8f6744ac9d5afbd552ab5/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:35:13-36
+169            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+169-->[com.google.android.gms:play-services-auth:20.4.0] /Users/techcureindia/.gradle/caches/transforms-3/3535be8f62b8f6744ac9d5afbd552ab5/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:36:13-107
+170            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+170-->[com.google.android.gms:play-services-auth:20.4.0] /Users/techcureindia/.gradle/caches/transforms-3/3535be8f62b8f6744ac9d5afbd552ab5/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:37:13-48
+171        <uses-library
+171-->[com.google.android.gms:play-services-maps:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+172            android:name="org.apache.http.legacy"
+172-->[com.google.android.gms:play-services-maps:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+173            android:required="false" />
+173-->[com.google.android.gms:play-services-maps:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+174
+175        <activity
+175-->[com.google.android.gms:play-services-base:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/f568b3e0e4b3738147ed358a145ad2d6/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+176            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+176-->[com.google.android.gms:play-services-base:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/f568b3e0e4b3738147ed358a145ad2d6/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+177            android:exported="false"
+177-->[com.google.android.gms:play-services-base:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/f568b3e0e4b3738147ed358a145ad2d6/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+178            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+178-->[com.google.android.gms:play-services-base:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/f568b3e0e4b3738147ed358a145ad2d6/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+179
+180        <meta-data
+180-->[com.google.android.gms:play-services-basement:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/6b0daa5fb4c2eb7e8b55778df9b972f6/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+181            android:name="com.google.android.gms.version"
+181-->[com.google.android.gms:play-services-basement:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/6b0daa5fb4c2eb7e8b55778df9b972f6/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+182            android:value="@integer/google_play_services_version" />
+182-->[com.google.android.gms:play-services-basement:18.1.0] /Users/techcureindia/.gradle/caches/transforms-3/6b0daa5fb4c2eb7e8b55778df9b972f6/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+183
+184        <uses-library
+184-->[androidx.window:window:1.0.0-beta04] /Users/techcureindia/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+185            android:name="androidx.window.extensions"
+185-->[androidx.window:window:1.0.0-beta04] /Users/techcureindia/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+186            android:required="false" />
+186-->[androidx.window:window:1.0.0-beta04] /Users/techcureindia/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+187        <uses-library
+187-->[androidx.window:window:1.0.0-beta04] /Users/techcureindia/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+188            android:name="androidx.window.sidecar"
+188-->[androidx.window:window:1.0.0-beta04] /Users/techcureindia/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+189            android:required="false" />
+189-->[androidx.window:window:1.0.0-beta04] /Users/techcureindia/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+190    </application>
+191
+192</manifest>

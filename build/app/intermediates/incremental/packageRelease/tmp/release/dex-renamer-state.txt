@@ -1,0 +1,4 @@
+#Mon Sep 11 10:48:45 IST 2023
+base.0=/Users/techcureindia/Documents/Github/bluedip_user/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -1,0 +1,37 @@
+<variant
+    name="release"
+    package="com.example.bluedip_user"
+    minSdkVersion="21"
+    targetSdkVersion="33"
+    shrinking="true"
+    mergedManifest="/Users/techcureindia/Documents/Github/bluedip_user/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
+    proguardFiles="/Users/techcureindia/Documents/Github/bluedip_user/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.1.2:/Users/techcureindia/Downloads/flutter3.0.5/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    partialResultsDir="/Users/techcureindia/Documents/Github/bluedip_user/build/app/intermediates/lint_vital_partial_results/release/out">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifest="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/main/kotlin"
+        resDirectories="src/main/res"
+        assetsDirectories="src/main/assets"/>
+    <sourceProvider
+        manifest="src/release/AndroidManifest.xml"
+        javaDirectories="src/release/java:src/release/kotlin"
+        resDirectories="src/release/res"
+        assetsDirectories="src/release/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <mainArtifact
+      classOutputs="/Users/techcureindia/Documents/Github/bluedip_user/build/app/intermediates/javac/release/classes:/Users/techcureindia/Documents/Github/bluedip_user/build/app/tmp/kotlin-classes/release:/Users/techcureindia/Documents/Github/bluedip_user/build/app/kotlinToolingMetadata:/Users/techcureindia/Documents/Github/bluedip_user/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
+      applicationId="com.example.bluedip_user"
+      generatedSourceFolders="/Users/techcureindia/Documents/Github/bluedip_user/build/app/generated/ap_generated_sources/release/out:/Users/techcureindia/Documents/Github/bluedip_user/build/app/generated/aidl_source_output_dir/release/out:/Users/techcureindia/Documents/Github/bluedip_user/build/app/generated/source/buildConfig/release:/Users/techcureindia/Documents/Github/bluedip_user/build/app/generated/renderscript_source_output_dir/release/out"
+      generatedResourceFolders="/Users/techcureindia/Documents/Github/bluedip_user/build/app/generated/res/rs/release:/Users/techcureindia/Documents/Github/bluedip_user/build/app/generated/res/resValues/release">
+  </mainArtifact>
+</variant>

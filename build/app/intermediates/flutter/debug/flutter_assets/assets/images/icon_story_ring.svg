@@ -1,0 +1,9 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="36" cy="36" r="34.75" stroke="url(#zouiunco6a)" stroke-width="2.5"/>
+    <defs>
+        <linearGradient id="zouiunco6a" x1="0" y1="0" x2="67.886" y2="72" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FF8A9E"/>
+            <stop offset="1" stop-color="#F43F5E"/>
+        </linearGradient>
+    </defs>
+</svg>
